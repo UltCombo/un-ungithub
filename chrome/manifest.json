@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "un-unGitHub",
+    "description": "Remove the \"un\"s from the GitHub interface",
+    "version": "1.0.0",
+    "icons": { "128": "icon.png" },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [{
+      "matches": ["*://github.com/*"],
+      "css": ["uugh.css"],
+      "js": ["uugh.js"]
+    }]
+}

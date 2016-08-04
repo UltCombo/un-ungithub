@@ -1,0 +1,18 @@
+{
+  "name": "un-ungithub",
+  "version": "1.0.0",
+  "description": "Remove the \"un\"s from the GitHub interface",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass src/uugh.scss chrome/uugh.css",
+    "dev": "npm run build -- --watch",
+    "test": "npm run build",
+    "preversion": "npm test"
+  },
+  "keywords": [],
+  "author": "UltCombo <ultcombo@gmail.com>",
+  "license": "WTFPL OR MIT",
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}
