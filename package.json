@@ -1,6 +1,6 @@
 {
   "name": "un-ungithub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove the \"un\"s from the GitHub interface",
   "main": "index.js",
   "scripts": {
