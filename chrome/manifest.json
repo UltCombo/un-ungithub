@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "un-unGitHub",
 	"description": "Remove the \"un\"s from the GitHub interface",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"icons": { "128": "icon.png" },
 	"browser_action": {
 		"default_icon": "icon.png"
