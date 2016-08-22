@@ -10,6 +10,7 @@
     "content_scripts": [{
       "matches": ["*://github.com/*"],
       "css": ["uugh.css"],
-      "js": ["uugh.js"]
+      "js": ["uugh.js"],
+      "run_at": "document_start"
     }]
 }
